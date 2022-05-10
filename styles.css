@@ -10,7 +10,7 @@
     background: #131313;
     height: 80px;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
@@ -69,7 +69,7 @@
 
 .navbar__btn {
     display: flex;
-    content: center;
+    justify-content: center;
     align-items: center;
     padding: 0 1rem;
     width: 100%;
@@ -160,7 +160,7 @@
     }
 
     .navbar__btn {
-        padding: 2rem;
+        padding-bottom: 2rem;
     }
 
     .button {
@@ -405,7 +405,7 @@
     font-size: 14rem;
 }
 
-.card-2 {
+#card-2 {
     background: #bdc3c7;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
@@ -678,6 +678,7 @@
 .social__media--wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
     max-width: 1000px;
     margin: 40px auto 0 auto;
